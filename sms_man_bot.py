@@ -12,7 +12,7 @@ import telebot, requests
 #———————–—Libraries————––———#
 session = requests.Session()
 #——————–——session—————————#
-bot = telebot.TeleBot('tg_bot_token')
+bot = telebot.TeleBot('5405957863:AAGJ3GYInJ7SeNIzu-tKJnSM_bT6_Tw-RuU')
 #——–——–—–—BoT_Login———–————#
 @bot.message_handler(commands=['start'])
 def start(message):
